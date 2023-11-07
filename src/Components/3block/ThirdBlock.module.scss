@@ -1,0 +1,30 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.container {
+  @apply flex flex-row justify-around bg-gray-100 h-96 m-20 items-center mb-3 pb-16;
+}
+
+.pic {
+}
+
+.one {
+  @apply w-52 h-28 flex flex-col items-center;
+}
+
+.two {
+  @apply w-56 h-28 flex flex-col items-center;
+}
+
+.three {
+  @apply w-48 h-28 flex flex-col items-center;
+}
+
+.textcyan {
+  @apply text-center text-cyan-400 text-2xl;
+}
+
+.counter {
+  @apply font-bold text-5xl pt-3 pb-3;
+}

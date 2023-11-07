@@ -1,0 +1,55 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.main_container {
+  @apply m-20 pt-24  mt-1 mb-1;
+}
+.container {
+  @apply p-10 pb-3  h-80;
+}
+
+.maintitle {
+  @apply text-4xl text-black font-black text-center pb-4;
+}
+.subtitle {
+  @apply text-center text-2xl text-cyan-400;
+}
+.slider_block {
+  @apply flex w-64 relative overflow-x-scroll;
+}
+.buttons_slide {
+  @apply flex flex-row justify-center;
+}
+.icontip {
+  @apply ml-5;
+}
+
+.bgline {
+  @apply absolute top-10 left-[-150%] border-t-2 border-dashed border-black w-full;
+  content: "";
+}
+
+.carouselItem {
+  @apply relative bg-white h-60 text-center;
+}
+
+.slider_smallromb_outline {
+  @apply absolute top-10 transform -translate-y-1/2 -translate-x-1/2 z-40 left-[50.5%] w-8 h-8 rotate-45 bg-cyan-400;
+}
+
+.vertical_line {
+  @apply absolute top-10 left-1/2 border-l-2 border-dashed border-black h-20;
+  content: "";
+}
+
+.smaller_romb {
+  @apply absolute top-32 transform -translate-y-1/2 -translate-x-1/2 z-40 left-[50.5%] w-5 h-5 rotate-45 bg-cyan-400;
+}
+.carousel_title {
+  @apply relative mt-3 mb-3 text-base font-bold top-[58%];
+}
+
+.carousel_subtitle {
+  @apply relative mt-3 mb-3 text-sm top-[53%] text-gray-400;
+}

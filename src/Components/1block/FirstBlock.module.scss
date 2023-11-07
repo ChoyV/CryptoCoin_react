@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.container {
+  @apply flex flex-row justify-center pt-24 bg-blue-50 min-w-full pb-20;
+}
+
+.textside {
+  @apply flex flex-col justify-center ml-14;
+}
+
+.heading {
+  @apply text-black font-extrabold text-5xl;
+}
+
+.describ {
+  @apply text-gray-400 text-lg mt-6;
+}
+
+.picture {
+  @apply ml-32 pr-16;
+}

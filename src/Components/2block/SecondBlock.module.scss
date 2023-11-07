@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.container {
+  @apply flex flex-row-reverse justify-center pt-24 bg-white min-w-full pb-20 pr-16;
+}
+
+.textside {
+  @apply flex flex-col justify-center ml-14;
+}
+
+.heading {
+  @apply text-black font-extrabold text-5xl;
+}
+
+.describ {
+  @apply text-gray-400 text-lg mt-6;
+}
+
+.picture {
+  @apply ml-32 pr-16 min-w-[50%];
+}
+
+.subheading {
+  @apply text-cyan-400 mt-2 font-medium text-xl;
+}
+
+.plaintext {
+  @apply text-gray-400 text-lg mt-3;
+}
+
+.list1 {
+  @apply list-none mt-10;
+}
+
+.listitem {
+  @apply flex flex-row  items-center pb-2 gap-x-2;
+}

@@ -1,0 +1,84 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.upper_block {
+  @apply flex flex-row justify-between gap-1;
+}
+
+.news_block {
+  @apply flex;
+}
+
+.logo_block {
+  @apply flex flex-col w-1/2;
+}
+
+.textlogo {
+  @apply text-cyan-400 font-semibold text-3xl;
+}
+
+.logo {
+  @apply inline-block mr-2 pl-3 h-auto max-w-[6%];
+}
+
+.sublogo_block {
+  @apply flex flex-row items-center;
+}
+
+.container {
+  @apply bg-gray-100 pt-20 h-fit pb-20 min-w-full p-14;
+}
+
+.podtext {
+  @apply mt-10;
+}
+
+.news_block {
+  @apply flex flex-col w-5/12;
+}
+
+.input_news {
+  @apply w-full bg-transparent pl-4 outline-none;
+}
+
+.inputblock {
+  @apply flex flex-row w-full border border-gray-300 mt-4;
+}
+
+.buttonclass {
+  @apply w-28 h-12 m-1 bg-cyan-300 text-center text-white rounded-md;
+}
+
+.news_heading {
+  @apply pb-7;
+}
+
+.ulblock {
+  @apply flex flex-row justify-between pt-10;
+}
+
+.ulheading {
+  @apply font-bold pb-3;
+}
+
+.followdiv {
+  @apply pr-32;
+}
+
+.list_item::before {
+  content: "➤";
+  /* Additional styles for the generated content */
+}
+
+.list_item {
+  @apply hover:scale-105 duration-200;
+}
+
+.outlineClass {
+  @apply flex flex-col w-5/12 outline-2 outline-cyan-400;
+}
+
+.followdiv_pics {
+  @apply flex flex-row justify-between gap-3;
+}

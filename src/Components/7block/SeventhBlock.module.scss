@@ -1,0 +1,46 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.main_container {
+  @apply bg-gray-100 m-20 pt-20 mt-1 mb-3 h-fit pb-20;
+}
+
+.textblock {
+  @apply flex flex-col gap-2;
+}
+.heading {
+  @apply text-4xl text-black font-black text-center pb-1;
+}
+
+.subtext {
+  @apply text-center text-2xl text-cyan-400 mb-10;
+}
+
+.imgblock {
+  @apply flex flex-row gap-2 justify-center items-center mt-5;
+}
+
+.timerblock {
+  @apply flex flex-row gap-4 justify-center items-center;
+}
+
+.timer_subframe {
+  @apply flex flex-col bg-white w-72 h-24 text-center;
+}
+
+.timerblock_text {
+  @apply text-cyan-400 font-normal text-xl;
+}
+
+.image {
+  @apply w-12;
+}
+
+.button_container {
+  @apply flex justify-center items-center;
+}
+
+.number {
+  @apply font-bold text-5xl pt-3;
+}

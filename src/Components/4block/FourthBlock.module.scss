@@ -1,0 +1,48 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.main_container {
+  @apply m-20 pt-24 mt-1 mb-1;
+}
+.container {
+  @apply flex flex-wrap flex-row justify-between  h-fit p-10 pb-3;
+}
+.maintitle {
+  @apply text-4xl text-black font-black text-center pb-4;
+}
+
+.subtitle {
+  @apply text-center text-2xl text-cyan-400;
+}
+.smallcell {
+  @apply w-96 h-72 mb-1 bg-white pl-6;
+}
+
+.smallcell_title {
+  @apply text-left mt-3 mb-3 text-xl font-bold;
+}
+
+.smallcell_subtitle {
+  @apply text-left mb-3;
+}
+
+.smallcell_text {
+  @apply text-gray-400 mb-4 text-base;
+}
+
+.smallcell_link {
+  @apply text-cyan-400 flex flex-row;
+}
+
+.small_container {
+  @apply flex flex-row items-center;
+}
+
+.pic {
+  @apply max-w-[100%] mr-9;
+}
+
+.smallcell_textblock {
+  @apply flex flex-col;
+}
