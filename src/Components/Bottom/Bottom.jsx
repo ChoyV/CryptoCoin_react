@@ -1,7 +1,6 @@
 import styles from "./Bottom.module.scss";
 import { Button } from "../Button/Button";
 import btc_sign from "../../assets/icon-1.png";
-import { useRef } from "react";
 import {
   AiFillTwitterCircle,
   AiFillFacebook,
@@ -10,18 +9,6 @@ import {
 } from "react-icons/ai";
 
 export default function Bottom() {
-  const inputRef = useRef(null);
-  const inputSelect = () => {
-    if (
-      inputRef.current &&
-      inputRef.current.selectionStart !== inputRef.current.selectionEnd
-    ) {
-      inputRef.current.classList.add(styles.outlineClass);
-    } else {
-      inputRef.current.classList.remove(styles.outlineClass);
-    }
-  };
-
   return (
     <>
       <div className={styles.container}>
@@ -41,12 +28,8 @@ export default function Bottom() {
           <div className={styles.news_block}>
             <h1 className={styles.news_heading}>Newsletter</h1>
             <p>Clita erat ipsum et lorem et sit, sed stet lorem sit clita.</p>
-            <div ref={inputRef} className={styles.inputblock}>
-              <input
-                onMouseUp={inputSelect}
-                type="Your email"
-                className={styles.input_news}
-              />
+            <div className={styles.inputblock}>
+              <input placeholder="Your email" className={styles.input_news} />
               <button type="button" className={styles.buttonclass}>
                 SignUp
               </button>

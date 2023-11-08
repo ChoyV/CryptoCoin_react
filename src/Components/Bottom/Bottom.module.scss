@@ -42,16 +42,22 @@
   @apply w-full bg-transparent pl-4 outline-none;
 }
 
+
 .inputblock {
-  @apply flex flex-row w-full border border-gray-300 mt-4;
+  @apply flex flex-row w-full border border-gray-300 mt-4 mb-5;
 }
+
+.inputblock:focus-within {
+    @apply ring-cyan-300 ring-4 ring-opacity-30 border-transparent;
+  }
+
 
 .buttonclass {
   @apply w-28 h-12 m-1 bg-cyan-300 text-center text-white rounded-md;
 }
 
 .news_heading {
-  @apply pb-7;
+  @apply pb-7 font-bold;
 }
 
 .ulblock {
@@ -76,7 +82,7 @@
 }
 
 .outlineClass {
-  @apply flex flex-col w-5/12 outline-2 outline-cyan-400;
+  @apply flex flex-col w-5/12 outline-2 ring-cyan-300 ring-4 ring-opacity-70 ring-offset-1;
 }
 
 .followdiv_pics {

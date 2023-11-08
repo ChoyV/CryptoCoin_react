@@ -3,10 +3,10 @@
 @import "tailwindcss/utilities";
 
 .container {
-  @apply pt-24 m-20  mt-1 mb-1;
+  @apply pt-20 m-20  mt-1 mb-1;
 }
 .main {
-  @apply m-24;
+  @apply m-24 mt-14;
 }
 
 .textblock {
