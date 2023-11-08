@@ -134,13 +134,13 @@ export default function SixthBlock() {
               onClick={goToPreviousSlide}
               className={styles.icontip}
               size={40}
-              color="cyan"
+              color="#22d3ee"
             />
             <BsArrowRightCircleFill
               onClick={goToNextSlide}
               className={styles.icontip}
               size={40}
-              color="cyan"
+              color="#22d3ee"
             />
           </div>
         </div>

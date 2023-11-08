@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+.main {
+    @apply bg-slate-600 min-h-screen
+}
+.maintext {
+    @apply text-center font-semibold text-white pt-[50%]
+}
+
+.subtext {
+    @apply text-center font-normal 
+}
